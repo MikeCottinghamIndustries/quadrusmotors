@@ -1,0 +1,20 @@
+.vehicle-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-item {
+    height: 500px;
+    border: 1px solid #cdcdcd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.list-item img {
+    max-width: 100%;
+}
+
+.list-item p {
+    font-size: .75em;
+}
